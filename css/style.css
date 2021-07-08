@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li,ol{
+    padding: 0;
+    margin: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    opacity: 1 ;
+    height: 40px !important;
+    top: 46% !important;
+
+} 
+
+
+i.far.fa-heart {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    color: white;
+    font-size: 17px;
+    z-index: 10;
+}
+
+
+ /* .heart.notliked {
+  color: grey;
+  font-size: 20px;
+} */
+
+.heart {
+  background-color: red !important;
+  border-radius:5px;
+} 
+
+i.fas.fa-play {
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+    color: #E66500;
+    font-size: 12px;
+    height: 23px;
+    width: 23px;
+    background-color: white;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 50%;
+}
+b, strong {
+    font-weight: bolder;
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+    background-color: #FFFFFF;
+    padding: 0px 13px;
+    color: #EB812F;
+    font-weight: 500;
+    border-radius: 25px;
+    border: 1px solid #EB812F;
+
+}
+.shadow{
+    border: 1px solid gainsboro;
+    border-radius: 7px;
+    transition: border ease-in .3s;
+    margin-bottom: 10px;
+}
+.shadow:hover{
+    border: 1px solid #EB812F;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 25%);
+    transition: border ease-in .3s;
+
+}
+.carousel-inner img{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.content {
+    margin: 20px 0px;
+}
+.content h5{
+    border: 1px solid #478500;
+    display: inline;
+    padding: 1px 11px;
+    font-size: 16px;
+    border-radius: 28px;
+    margin: 8px 0px;
+    display: inline-block;
+}
+.content h5 a{
+    color: #478500;
+}
+.content span{
+    display: block;
+}
+.content span i{
+    font-size: 13px;
+}
+.content h2{
+font-size: 26px;
+}
+.content p{
+    font-size: 17px;
+    margin: 5px 0px;
+}
+.content span a{
+    border: 1px solid #E76C0C;
+    padding: 5px 25px;
+    font-size: 17px;
+    border-radius: 5px;
+    color: #E76C0C;
+}
+.content .below{
+margin-top: 20px;
+}
+.content .below a:nth-child(2){
+background-color: #E66500;
+color: white;
+}
+.w-100 {
+    width: 100%!important;
+    height: 260px;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: #E76C0C;
+    padding: 9px 13px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #E76C0C;
+    border-radius: 5px;
+}
+
+.navbar {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+   
+    padding-bottom: 10px;
+}
+i.fas.fa-search {
+    color: #E66500;
+}
+.btn-outline-success:hover, .btn-outline-success:focus {
+    color: #E66500;
+    background-color: white;
+    border-color: #E66500;
+}
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+    color: #fff;
+    background-color: white;
+    border-color: #E66500; 
+}
+  /* Dropdown button on hover & focus */
+/*
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+*/
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid black;
+}
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+  /* #heart {
+    color: grey;  
+    font-size: 20px;
+  }
+  
+  #heart.red {
+    color: red;
+  } */
+
+
+
+
